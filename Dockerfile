@@ -1,3 +1,3 @@
-FROM alpine:3.18
+FROM alpine:3.23.3
 
-RUN apk add aws-cli postgresql12-client
+RUN apk add aws-cli postgresql16-client
